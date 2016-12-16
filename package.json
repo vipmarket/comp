@@ -4,7 +4,9 @@
   "description": "comp study",
   "main": "index.js",
   "scripts": {
-    "test": "comp"
+    "build": "webpack",
+    "lint": "eslint ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/vipmarket/comp/issues"
   },
-  "homepage": "https://github.com/vipmarket/comp#readme"
+  "homepage": "https://github.com/vipmarket/comp#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "webpack": "^1.14.0"
+  }
 }
