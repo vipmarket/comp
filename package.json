@@ -1,0 +1,22 @@
+{
+  "name": "comp",
+  "version": "1.0.0",
+  "description": "comp study",
+  "main": "index.js",
+  "scripts": {
+    "test": "comp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipmarket/comp.git"
+  },
+  "keywords": [
+    "study"
+  ],
+  "author": "serg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipmarket/comp/issues"
+  },
+  "homepage": "https://github.com/vipmarket/comp#readme"
+}
